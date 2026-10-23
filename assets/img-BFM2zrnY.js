@@ -1,0 +1,1 @@
+function e(e,t){return`/.netlify/images?url=/img/${e}&w=${t}&fm=webp&q=78`}function t(t,n){return n.map(n=>`${e(t,n)} ${n}w`).join(`, `)}export{t as n,e as t};
